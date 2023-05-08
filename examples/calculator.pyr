@@ -1,0 +1,18 @@
+def shunting_yard(expression):
+  # TODO
+
+def calculate(expression):
+  # hmmm
+  rpn = shunting_yard(expression)
+
+  state = []
+  for thingy in rpn:
+    if type(thingy) == int:
+      state.append(thingy)
+    elif thingy == "+":
+      a, b = state.pop(), state.pop()
+      state.append(a + b)
+    elif # ... and so on for the rest of the arithmetic operations
+
+output = calculate("(5 + 7) * 3 + 12")
+print(output)

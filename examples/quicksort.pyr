@@ -1,0 +1,9 @@
+def quicksort(A):
+  # not quite sure what to do here
+  smaller = None # things smaller than a pivot
+  larger = # not actually too sure
+  middle = the pivot + the other bits
+
+  return quicksort(smaller) + larger + quicksort(middle)
+
+print(quicksort([10...0]))

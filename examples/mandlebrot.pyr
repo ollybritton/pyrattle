@@ -1,0 +1,3 @@
+def draw_mandlebrot_ascii():
+  # i wish i understood math
+  # TODO: implement drawing the mandlebrot set with ascii

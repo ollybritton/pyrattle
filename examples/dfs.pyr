@@ -1,0 +1,29 @@
+class Graph:
+  # TODO
+
+class Node:
+  # TODO
+
+def dfs(graph):
+  for node in graph:
+    node.f = infinity
+    node.d = infinity
+    node.color = "white"
+    node.back = null
+
+  time = 0
+
+  for node in graph:
+    if node.color == "white":
+      dfs_visit(node)
+
+def dfs_visit(graph):
+  # something about updating time, color to grey then black and then
+  # calling dfs visit on all the unexplored adjacent vertices
+
+def print_backpointer_table(graph):
+  # literally can't be bothered
+
+graph = Graph()
+dfs(graph)
+print_backpointer_table(graph)
