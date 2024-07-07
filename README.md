@@ -1,3 +1,7 @@
+> As you might be able to tell, the following README is written by ChatGPT with a bit of human curation. This was just a quick idea I had which I thought would be funny to very quickly hack together. It is by no means a serious project!
+
+---
+
 # 🐍 Pyrattle 🔥
 > Code without boundaries -- or syntax, or structure, or consistency.
 
